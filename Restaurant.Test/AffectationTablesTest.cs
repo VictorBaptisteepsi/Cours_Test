@@ -1,19 +1,20 @@
 using Xunit;
 
-namespace LeGrandRestaurant.Test
+
+namespace Restaurant.Test
 {
     public class AffectationTablesTest
     {
-        [Fact(DisplayName = "Etant donné une salle ayant une table, elle est affectée par défaut au maître d'hotel.")]
+        [Fact(DisplayName = "Etant donnÃ© une salle ayant une table, elle est affectÃ©e par dÃ©faut au maÃ®tre d'hotel.")]
         public void Affectation_Initiale()
         {
-            // Étant donné une salle ayant une table
-            var maîtreHotel = new MaîtreHotel();
+            // Ã©tant donnÃ© une salle ayant une table
+            var maÃ®treHotel = new MaÃ®treHotel();
             var table = new Table();
-            var salle = new Salle(table, maîtreHotel);
+            var salle = new Salle(table, maÃ®treHotel);
 
-            // Alors cette table est affectée par défaut au maître d'hôtel
-            Assert.Equal(maîtreHotel, table.Affectataire);
+            // Alors cette table est affectÃ©e par dÃ©faut au maÃ®tre d'hÃ´tel
+            Assert.Equal(maÃ®treHotel, table.Affectataire);
         }
     }
 }

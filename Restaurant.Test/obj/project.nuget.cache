@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NNYM+mobVr7EX+S8E06J2l/4IDVy0fqeIbVRqjsF+FJTm4lnopfve4LkdTrZTBFAi9eMHcyaX7jFwhV6tLmQnQ==",
+  "dgSpecHash": "DQCqqBUDBKJpqeNJi83XKIgIkx9n/aHR3qYrvZNrkcx/+gHlRhuyrFY21TsM8mOo0pd1zE03u2UE9WVGm7WJUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hudav\\RiderProjects\\SolutionRestaurant\\Restaurant.Test\\Restaurant.Test.csproj",
   "expectedPackageFiles": [
@@ -68,7 +68,14 @@
     "C:\\Users\\hudav\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\hudav\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hudav\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\hudav\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\hudav\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\hudav\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
+    "C:\\Users\\hudav\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\hudav\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\hudav\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
+    "C:\\Users\\hudav\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\hudav\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\hudav\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

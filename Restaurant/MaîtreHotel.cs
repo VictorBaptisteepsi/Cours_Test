@@ -1,5 +1,7 @@
-﻿namespace LeGrandRestaurant;
-
-public class MaîtreHotel
+﻿namespace Restaurant
 {
+    public class MaîtreHotel
+    {
+    }
+
 }
