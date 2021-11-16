@@ -2,11 +2,11 @@
 {
     public class Table
     {
-        public MaîtreHotel Affectataire { get; private set; }
+        public IPeutServir Affectataire { get; private set; }
 
-        public void AffecterA(MaîtreHotel maîtreHotel)
+        public void AffecterA(IPeutServir serveur)
         {
-            Affectataire = maîtreHotel;
+            Affectataire = serveur;
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Restaurant
 {
-    public class MaîtreHotel
+    public class MaîtreHotel : IPeutServir
     {
     }
 

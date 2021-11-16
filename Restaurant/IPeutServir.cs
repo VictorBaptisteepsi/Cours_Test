@@ -1,4 +1,4 @@
-﻿namespace LeGrandRestaurant
+﻿namespace Restaurant
 {
     public interface IPeutServir
     {

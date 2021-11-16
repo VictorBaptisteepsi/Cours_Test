@@ -2,9 +2,12 @@
 {
     public class Salle
     {
-        public Salle(Table table, MaîtreHotel maîtreHotel)
+        public Salle(MaîtreHotel maîtreHotel, params Table[] tables)
         {
-            table.AffecterA(maîtreHotel);
+            foreach (var table in tables)
+            {
+                table.AffecterA(maîtreHotel);
+            }
         }
     }
 }
