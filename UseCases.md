@@ -15,6 +15,7 @@ SCOPE Chiffre d'Affaires
 		ALORS son chiffre d'affaires est la somme des deux commandes
 
 	SCOPE Restaurant
+	
 		ÉTANT DONNÉ un restaurant ayant X serveurs
 		QUAND tous les serveurs prennent une commande d'un montant Y
 		ALORS le chiffre d'affaires de la franchise est X * Y
@@ -22,6 +23,7 @@ SCOPE Chiffre d'Affaires
 		CAS(Y = 1.0)
 
 	SCOPE Franchise
+	
 		ÉTANT DONNÉ une franchise ayant X restaurants de Y serveurs chacuns
 		QUAND tous les serveurs prennent une commande d'un montant Z
 		ALORS le chiffre d'affaires de la franchise est X * Y * Z
@@ -30,6 +32,7 @@ SCOPE Chiffre d'Affaires
 		CAS(Z = 1.0)
 
 SCOPE DebutService
+
 	ÉTANT DONNE un restaurant ayant 3 tables
 	QUAND le service commence
 	ALORS elles sont toutes affectées au Maître d'Hôtel
@@ -49,6 +52,7 @@ SCOPE DebutService
 	ALORS la table éditée est affectée au serveur et les deux autres au maître d'hôtel
 
 SCOPE Epinglage
+
 	ÉTANT DONNE un serveur ayant pris une commande
 	QUAND il la déclare comme non-payée
 	ALORS cette commande est marquée comme épinglée
@@ -66,6 +70,7 @@ SCOPE Epinglage
 	ALORS elle ne figure plus dans la liste des commandes à transmettre du restaurant
 
 SCOPE Installation
+
 	ÉTANT DONNE une table dans un restaurant ayant débuté son service
 	QUAND un client est affecté à une table
 	ALORS cette table n'est plus sur la liste des tables libres du restaurant
@@ -75,6 +80,7 @@ SCOPE Installation
 	ALORS cette table appraît sur la liste des tables libres du restaurant
 
 SCOPE Menus
+
 	ÉTANT DONNE un restaurant ayant le statut de filiale d'une franchise
 	ET une franchise définissant un menu ayant un plat
 	QUAND la franchise modifie le prix du plat
@@ -90,6 +96,7 @@ SCOPE Menus
 	ALORS la carte du restaurant propose le premier plat au prix du restaurant et le second au prix de la franchise
 
 SCOPE Commande
+
 	ÉTANT DONNE un serveur dans un restaurant
 	QUAND il prend une commande de nourriture
 	ALORS cette commande apparaît dans la liste de tâches de la cuisine de ce restaurant
