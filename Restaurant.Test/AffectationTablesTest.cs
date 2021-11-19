@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
+using Restaurant.Test.Utilities;
 
 
 namespace Restaurant.Test
@@ -33,7 +34,10 @@ namespace Restaurant.Test
             new Salle(maîtreHotel, tableDuServeur, tableDuMaîtreHotel);
 
             //Quand j'affecte une des tables a un serveur
-            var serveur = new Serveur();
+            var horloge = new HorlogeRéglable();
+
+            // TODO refaire séance n°3
+            var serveur = new Serveur(horloge);
             tableDuServeur.AffecterA(serveur);
 
             //Alors la table est affect�e au serveur et l'autre reste au ma�tre d'hotel
