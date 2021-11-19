@@ -10,6 +10,7 @@ namespace Restaurant
         private readonly IHorloge _horloge;
         private readonly DateTime _dateAffectation;
         private readonly Serveur _affectataire;
+        private int _montant;
 
         public Commande(IHorloge horloge, Serveur serveurEnCharge)
         {
@@ -22,6 +23,19 @@ namespace Restaurant
 
         public bool ATransmettreGendarmerie
             => _horloge.Now >= _dateAffectation + TempsAvantDeContacterLaGendarmerie;
+
+        public int Montant
+        {
+            get
+            {
+                return _montant;
+            }
+            set
+            {
+                this._montant = value;
+                _affectataire.chiffreAffaire += _montant;
+            }
+        }
 
         internal void Épingler(Serveur acteur)
         {

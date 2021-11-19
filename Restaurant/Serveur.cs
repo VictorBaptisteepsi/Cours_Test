@@ -9,6 +9,8 @@
             _horloge = horloge;
         }
 
+        public int chiffreAffaire { get; set; }
+
         public Commande PrendreCommande()
         {
             return new Commande(_horloge, this);
